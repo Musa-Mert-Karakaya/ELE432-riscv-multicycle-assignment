@@ -91,10 +91,3 @@ After both fixes, all 40 tests pass with 0 errors:
 
 ![40 tests 0 errors](images/no_error.png)
 
-## Waveform
-
-Key signals monitored during simulation:
-- `state` — FSM state transitions (S0 Fetch → S1 Decode → ...)
-- `op` — instruction opcode driving state transitions
-- `ALUControl` — verified correct encoding per instruction
-- `pcwrite` — pulses high at every Fetch state
